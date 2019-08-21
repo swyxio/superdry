@@ -20,6 +20,7 @@ Here are some of the battle tested best practices everybody should adopt.
 
 ```bash
 npx superdry init sourceFolder
+## or `npm install superdry` and set up your scripts
 ```
 
 That's it. You don't need to worry about setting up Typescript or Rollup or Jest or other plumbing. Just start editing `init` and go!
