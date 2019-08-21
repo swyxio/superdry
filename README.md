@@ -1,4 +1,4 @@
-![superdry](https://user-images.githubusercontent.com/4060187/56918426-fc747600-6a8b-11e9-806d-2da0b49e89e4.png)
+# SuperDRY
 
 [![Blazing Fast](https://badgen.now.sh/badge/speed/blazing%20%F0%9F%94%A5/green)](https://npm.im/superdry) [![Blazing Fast](https://badgen.now.sh/badge/speed/blazing%20%F0%9F%94%A5/green)](https://npm.im/superdry) [![Blazing Fast](https://badgen.now.sh/badge/speed/blazing%20%F0%9F%94%A5/green)](https://npm.im/superdry) [![CircleCI](https://circleci.com/gh/palmerhq/superdry.svg?style=svg)](https://circleci.com/gh/palmerhq/superdry)
 
