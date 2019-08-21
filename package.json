@@ -1,0 +1,25 @@
+{
+  "name": "superdry",
+  "version": "0.0.1",
+  "main": "bin/index.js",
+  "author": "sw-yx <swyx@dontemail.me>",
+  "license": "MIT",
+  "files": [
+    "/bin"
+  ],
+  "bin": {
+    "superdry": "./bin/index",
+    "sd": "./bin/index"
+  },
+  "scripts": {
+    "start": "yarn test:run",
+    "test:start": "node ./bin/index watch demos/hello-world",
+    "test:build": "node ./bin/index build demos/hello-world",
+    "test:run": "node ./bin/index run demos/hello-world",
+    "shouldFail:badCommand": "node ./bin/index potato demos/hello-world",
+    "shouldFail:badPath": "node ./bin/index build potato/hello-world",
+    "shouldFail:singleCharacter": "node ./bin/index build demos/bad-hello-world",
+    "shouldFail:repeatedChar": "node ./bin/index build demos/bad-repeated-char",
+    "shouldWarn:repeatedNumber": "node ./bin/index build demos/bad-repeated-hello-world"
+  }
+}
